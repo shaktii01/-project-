@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about_us</title>
+    <style>
+       *{
+            margin: 0;
+        }
+        #hidden{
+            display: none;
+        }
+   nav{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 0;
+        }
+       
+        
+        nav a{
+            padding:10px 50px;
+            text-decoration: none;
+            color: black;
+        }       
+        #logo{
+            padding-right:10px;
+        }
+        .abc:hover{
+            
+            border: 2px solid rgb(15, 15, 15);
+            border-radius: 15px;
+            
+            }   #border{
+            height: 10px;
+            width: 100%;
+            background-color: orange;
+        }
+        #ser{
+        background-color: orange;
+        align-content: center;
+        text-align: center;
+        border-radius: 20px;
+        height: 3rem;
+        width: 20rem;
+        margin: 20px;
+        padding: 20px;
+        font-size: 40px;}
+        #div1{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+        
+        }
+        div p{
+            font-size: 25px;
+            
+        }
+        #div2 div{
+            background-color: orange;
+            font-size: 30px;
+            width: 30rem;
+            text-align: center;
+            border-radius: 10px;
+
+        }
+        ol li{
+            font-size: 1.5rem;
+        }
+        #div img{
+            padding: 50px;
+
+        }
+        #div3 img{
+            width: 95%;
+    height: 358px;
+}
+        
+        #exp{
+            background-color:orange;
+            border-radius: 10px;
+            font-size: 2.5rem;
+            text-align: center;
+            width: 30rem;
+        }
+        #team{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        #team img{
+            width: 220px;
+            aspect-ratio: 3/3;
+        }
+        #main{
+            display: flex;
+            justify-content: center;
+        }
+        #main img{
+            width: 400px;
+            
+        }
+        #LOKESH{
+            text-align: center;
+            display: grid;
+            align-items: center;
+            
+        }
+        #LOKESH h2{
+            font-size: 3rem;
+            color: red;
+            padding: 0;
+        }
+        h2 p{color: black;
+        font-weight: 400;}
+        #LOKESH h4{
+            font-size: 1.8rem;
+        }
+     footer{
+        background-color: orange;
+        display: flex;
+        justify-content: center;
+padding: 40px;
+text-align: center;
+    }
+    
+.hover-image{
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-image{
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    width: 100%;
+    height: auto;
+}
+
+#div01:hover .hover-image{
+    transform: scale(1.1); /* Zoom effect */
+    opacity: 1; /* Fade effect */
+}
+
+#div02:hover .hover-image{
+    transform: scale(1.1); /* Zoom effect */
+    opacity: 1; /* Fade effect */
+}
+
+#div03:hover .hover-image{
+    transform: scale(1.1); /* Zoom effect */
+    opacity: 1; /* Fade effect */
+}
+
+#div04:hover .hover-image{
+    transform: scale(1.1); /* Zoom effect */
+    opacity: 1; /* Fade effect */
+}
+
+#div05:hover .hover-image{
+    transform: scale(1.1); /* Zoom effect */
+    opacity: 1; /* Fade effect */
+}
+
+#div06:hover .hover-image{
+    transform: scale(1.1); /* Zoom effect */
+    opacity: 1; /* Fade effect */
+}
+#center{
+    margin: 40px;
+}
+@media  only screen and (max-width:716px) {
+    
+    #main{
+            display: flex;
+            justify-content:center;
+            
+        }
+        #main img{
+            width: 250px;
+
+            
+        }
+        #LOKESH{
+            text-align: center;
+            display: grid;
+            align-items: center;
+            
+        }
+        #LOKESH h2{
+            font-size: 1rem;
+            color: red;
+        
+        
+        }
+        #LOKESH h4{
+            font-size: 1.1rem;
+        }
+        #team{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        #team img{
+            width: 120px;
+            aspect-ratio: 3/3;}
+            
+            nav a{
+                padding: 7px 12px;
+            }
+         
+            
+            #ser{
+        background-color: orange;
+        align-content: center;
+        
+        border-radius: 15px;
+        height: 1.5rem;
+        width: 10rem;
+        margin: 10px;
+        padding: 10px;
+        font-size: 25px;}
+        #div1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-items: center;
+        
+        }
+        div p{
+            font-size: 18px;
+            
+        }
+        #div2 div{
+            background-color: orange;
+            font-size: 20px;
+            width: 20rem;
+            text-align: center;
+            border-radius: 10px;
+
+        }
+        ol li{
+            font-size: 1.1rem;
+        }
+        #div img{
+            padding: 50px;
+
+        }
+        #exp{
+            background-color:orange;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            text-align: center;
+            width: 20rem;
+        }
+        #div3 img{
+            width: 100%;
+    height: 358px;
+}
+        
+        #div{
+            justify-items: center;
+        }
+        #team div{
+            padding: 10px;
+        }
+
+
+        
+    }
+    @media only screen and (max-width:1200px) {
+
+        nav{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        
+    }
+    @media only screen and (max-width:435px) {
+        #logo{
+            display: none;
+        }
+        #hidden{
+            display: flex;
+            justify-content: center;
+            
+         
+        }
+        #hidimg{
+            height: 60px;
+        }
+        #team img{
+            width: 80px;
+            aspect-ratio: 3/3;
+        
+        }
+        #main img{
+            width: 200px;
+        }
+        #exp{
+            border-radius: 10px;
+            font-size: 1.5rem;
+            text-align: center;
+            width: 16rem;
+        }
+        #team h3{
+            font-size: 15px;
+        }
+        #team h4{
+            font-size: 10px;
+        }
+        #team div{
+            padding: 10px;
+        }
+        nav a{
+         font-size: .8rem;
+       }
+       p{
+         font-size:0.7rem;
+       }
+        
+    }
+  
+    </style>
+</head>
+<body>
+    <header>
+        <div id="hidden"><img src="logo.png" id="hidimg"></div>
+        <nav>
+            <div id="logo"><img src="logo.png" height="50px"  ></div>
+            <div><a href="index.html" class="abc">Home</a></div>
+            <div><a href="ourservices.html" class="abc">our services</a></div>
+
+            <div><a href="aboutus.html" class="abc">about us</a></div>
+            <div><a href="socialmedia.html" class="abc">social media</a></div>
+        
+        </nav>
+        <div id="border"></div></header>
+        <div id="center">
+        <div id="ser">ABOUT US</div>
+        <p>For The Last 6 Years, Hype Media Agency Has Been Continuously Working With A Large Team In Various<br>
+            Fields. The Companies Joining Hype Media Agency Have Received Very Good Responses.</p><br>
+        </div>
+    <div id="div1">
+        <div id="div2">
+
+            <Div>Agency working in these Fields</Div>
+            <br><br>
+            
+            <ol>
+                <li>Education
+                    <ul>( Schools, Colleges, Coachings, Computer Centers and Many More )</ul>
+                </li>
+                <li>Fashion branding
+                    <ul>( Cloths Brand, Shoes Brand, Showroom and Malls )</ul>
+                </li>
+                <li>Techanologyy
+                    <ul>( Mobile Phones, Laptops and Shops Branding )</ul>
+                </li>
+                <li>Film industry</li>
+            </ol>
+        </div>
+        <div id="div3">
+            <img src="Agency Working in These Fields.png" >
+        </div>
+    </div>
+    <br><br>
+    <div id="exp">OUR EXPERTS TEAM</div>
+    <div id="main">
+        <div id="LOKESH"><h2>LOKESH PRAJAPAT 
+            <br>
+        <p>Hype Media Agency Owner With<br>
+            6 Years Experience In Digital Marketing </p>
+            </h2>
+        </div>
+        <div  id="div01">
+           <img src="LOKESH PRAJAPAT.png" class="hover-image">
+        </div>
+    </div>
+    <div id="team">
+        <div id="div02">
+          
+                <img src="Krishan Kumar.png" class="hover-image" >
+          
+        <h3>Krishan Kumar</h3>
+        <h4>Chief Viewer & Content<br>
+            Expert </h4>
+        </div>
+        <div id="div03">
+            <img src="Ashwin Budania.png" class="hover-image" >
+            <h3>Ashwin Budania</h3>
+            <h4>Photo, Videography<br>
+                and Digital Studio<br>
+                Expert</h4>
+        </div>
+        <div id="div04">
+            <img src="Neel Kumari.png" class="hover-image" >
+            <h3>Neel Kumari</h3>
+            <h4>Actor and Voice Artist<br>
+                Expert </h4>
+        </div>
+        <div id="div05">
+            <img src="JITENDAR PRAJAPAT.png" class="hover-image" >
+            <h3>JITENDAR PRAJAPAT</h3>
+            <h4>Video Editor and<br>
+                Graphic Designer<br>
+                Expert</h4>
+        </div>
+        <div id="div06">
+            <img src="PoojaRiya.png" class="hover-image" >
+            <h3>PoojaRiya
+            </h3>
+            <h4>Actor and Voice Artist<br>
+                Expert</h4>
+        </div>
+    </div>
+    <footer>
+        <h3>&copy; 2024 hyper media . All right are reserved</h3>
+    </footer> 
+</body>
+</html>
